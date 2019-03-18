@@ -1,0 +1,8 @@
+First Go to sonarqube> admintration
+
+create token, select java and select build tool
+
+copy command and run command on sonarqube system.please check below command
+
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=4aa32e977ab1513e3fe5c3ac0c7883528d01a5e8. 
+
